@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Recipe(props) {
-    let sendRecipe = (data1,data2,data3,data4) => {
-        var data = [{id:data1, name:data2, recipe:data3, img:data4}];
+    let sendItem = (data1,data2,data3,data4) => {
+        var data = [{id:data1, name:data2, item:data3, img:data4}];
         props.getData(data)
     }
 
@@ -12,7 +12,7 @@ function Recipe(props) {
                 props.data.map((val, idx) => {
                     return (
                         <div key={val+val.id} className="border border-secondary shadow p-3 mb-5 bg-body rounded">
-                            <div  className="card" style={{ width: "18rem" }} onClick={()=>{sendRecipe(val.id,val.name,val.recipe,val.img)}}>
+                            <div  className="card" style={{ width: "18rem" }} onClick={()=>{sendItem(val.id,val.name,val.item,val.img)}}>
                             <div  className="card-body">
                             <h5  className="card-title">{val.id}</h5>
                                     <h5  className="card-title">{val.name}</h5>
