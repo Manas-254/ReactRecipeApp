@@ -9,10 +9,11 @@ function Content(props) {
                 props.data.map((val,idx)=>{
                    return(<div key={val+idx}>
                        <div  className="card">
-                                <img src={val.img} className="card-img-top" alt="img" height={"500px"} width={"500px"}/>
-                                <div  className="card-body">
-                                    <h5  className="card-title">{val.name}</h5>
+                       <div  className="card-body">
+                                    <h3  className="card-title">{val.name}</h3>
                                 </div>
+                                <img src={val.img} className="card-img-top" alt="img" height={"500px"} width={"500px"}/>
+                               <h5>Steps for making</h5>
                                 <p className="card-text">{val.recipe}</p>
                             </div><br />
                    </div>) 
