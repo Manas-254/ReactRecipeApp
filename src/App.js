@@ -21,7 +21,7 @@ function App() {
     },
     {
         id: 3,
-        name: "Corn Bonda",
+        name: "Sweet Corn Bonda",
         recipe: "In a pressure cooker, boil potatoes, peel and mash. Set it aside.Cook corn kernels in water and strain and keep it aside.In a bowl, add boiled and mashed potatoes, cooked corn, salt, red chilli powder and coriander leaves.Mix well and make small lemon sized balls and set it aside.In a bowl add gram flour, rice flour, red chilli powder, salt and sufficient water to make soft and lump free batter.Heat oil in a pan. Dip the potato corn balls in the batter and coat well. Drop them one by one in hot oil and fry till golden brown.",
         img: "https://th.bing.com/th/id/OIP.M06RcWIHsCx1ujOrJYCECgHaE8?w=231&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7"
     }
